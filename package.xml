@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>make_rosbag</name>
+  <version>1.1.0</version>
+  <description>
+    pcd 파일 to rosbag
+  </description>
+
+  <license>BSD</license>
+
+  <author email="addwood1@gmail.com">kimjuwon</author>
+  <maintainer email="addwood1@gmail.com">kimjuwon</maintainer>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>rosbag</build_depend>
+  <build_depend>pcl_ros</build_depend>
+  <build_depend>pcl_conversions</build_depend>
+
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>rosbag</exec_depend>
+  <exec_depend>pcl_ros</exec_depend>
+  <exec_depend>pcl_conversions</exec_depend>
+
+  <export>
+    <build_type>catkin</build_type>
+  </export>
+</package>
